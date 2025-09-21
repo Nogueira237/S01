@@ -3,7 +3,6 @@
 #include <list>
 using namespace std;
 
-
 //classe base
 class Pessoa{
 public:
