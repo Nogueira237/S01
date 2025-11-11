@@ -53,3 +53,6 @@ main = do
     
     putStr "Evento 3 (Cancelado) - Valor Total: R$" -- evento cancelado = 0
     print (custoTotalEvento evento3)
+
+    putStr "Banda de abertura do evento 1: "
+    print (bandaAbertura evento1)
