@@ -6,7 +6,7 @@ data Banda = Banda { nome :: String, gen :: String, cache :: Double }
 data StatusEvento = Ativo | Encerrado | Cancelado
     deriving (Show, Eq)
     
--- Tipo que representa um show com lista de bandas e status do evento
+-- Tipo que representa um evento com lista de bandas e status do evento
 data Evento = Evento { bandas :: [Banda], statusEvento :: StatusEvento}
     deriving (Show)
     
